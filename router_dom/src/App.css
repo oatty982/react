@@ -1,0 +1,28 @@
+body {
+  margin: 0 auto;
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 1000px;
+  background-color: rgb(255, 170, 101);
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  background: darkgray;
+}
+
+nav li {
+  padding: 5px;
+}
+
+nav a {
+  color: white;
+  padding: 5px;
+}
